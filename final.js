@@ -75,10 +75,10 @@ function fetchData() {
 
                     first = false;
                     /*
-                        //get location
+                        //get location  
 
 
-                        let address = [];
+                        let address = []; 
                         const geocoder = NodeGeocoder(mapOptions);
 
                     } */
@@ -86,5 +86,6 @@ function fetchData() {
             }, 7 * 1000);
     });
 }
+
 
 fetchData();
