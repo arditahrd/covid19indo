@@ -29,6 +29,7 @@ function inputData(id, prov, positive, cured, death) {
     );
 }
 
+
 function updateData(id, prov, positive, cured, death) {
     pool.query(
         "UPDATE data_indo SET Province= '" + prov + "',Positive = '" + positive + "',Cured = '" + cured + "',Death= '" + death + "' where ID = '" + id + "'",
